@@ -29,4 +29,4 @@ open index.html
 
 ## Live Demo
 You can try the project here:
-https://emadriyaz.github.io/interactive-robot/
+https://shadowblades746.github.io/Interactive-Robot/

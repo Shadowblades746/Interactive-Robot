@@ -23,7 +23,7 @@ If the display appears misaligned, simply refresh the page.
 
 ## Run Locally
 ```bash
-git clone <repository_url>
+git clone https://github.com/Shadowblades746/Interactive-Robot.git
 open index.html
 ```
 

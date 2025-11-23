@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/index.js" defer></script>
+    <link rel="stylesheet" href="CSS/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Emad Riyaz Ahamed">
+    <title>Robot Control Interface</title>
+</head>
+<body>
+<div id="canvas-container">
+    <canvas id="robot-canvas"></canvas>
+
+    <div id="battery-status">
+        <div id="battery-indicator">
+            <div id="battery-level"></div>
+        </div>
+        <span>Actions remaining: <span id="actions-left">3</span></span>
+    </div>
+
+    <div id="controls">
+        <button id="power-button">Power Robot</button>
+        <button id="charge-button">Charge Robot</button>
+    </div>
+</div>
+
+<div>
+    <h2>Explanation of Software Usage</h2>
+    <p>This software allows you to control a minimalist robot using the buttons and the canvas area. The following actions are implemented:</p>
+    <ul>
+        <li><strong>Power Button:</strong> Toggles the robot's power on and off. When powered on, the robot's eyes light up and the indicator becomes green</li>
+        <li><strong>Charge Button:</strong> Charges the robot's battery, resetting the number of actions to 3. The charging process takes 3 seconds.</li>
+        <li><strong>Canvas Click:</strong> Clicking on the canvas in the non-marked areas makes the robot shoot lasers from its eyes.</li>
+        <li><strong>Left/Right Side Click:</strong> Clicking on the left or right side of the canvas in the marked areas moves the robot to your pointer</li>
+        <li><strong>Arm Click:</strong> Clicking on the robot's arms makes them spin.</li>
+    </ul>
+    <p>The program is designed to run on various devices including smartphones and PCs. It uses responsive design techniques to adjust the canvas size based on the device's screen size, ensuring compatibility across different hardware platforms. If there is any issue with the display, then a simple reload should do the trick</p>
+</div>
+</body>
+</html>

@@ -12,15 +12,11 @@ The design is fully responsive, ensuring smooth performance across devices from 
 - **Side Click:** Moves the robot toward your pointer.  
 - **Arm Click:** Spins the robot’s arms.
 
-## Responsive Design
-The layout automatically scales based on the device’s screen size.  
-If the display appears misaligned, simply refresh the page.
-
 ## Tech Stack
 - JavaScript (Vanilla)  
 - HTML5 Canvas  
-- CSS (Responsive)
-
+- CSS
+  
 ## Run Locally
 ```bash
 git clone https://github.com/Shadowblades746/Interactive-Robot.git

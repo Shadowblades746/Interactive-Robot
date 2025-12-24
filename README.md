@@ -24,5 +24,4 @@ open index.html
 ```
 
 ## Live Demo
-You can try the project here:
-https://shadowblades746.github.io/Interactive-Robot/
+**You can try the project here**: [Website](https://shadowblades746.github.io/Interactive-Robot)
